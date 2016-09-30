@@ -1,0 +1,199 @@
+﻿#head{
+	max-width:100%;
+	margin-bottom: 10px;
+
+}
+
+.logo{
+	/*float: left;*/
+	max-width: 63%
+	
+}
+.dangnhap{	
+
+	padding: 10px;
+	float: right;
+	margin-top: 15px;
+}
+.dangnhap input[type=button]{
+	display: block;
+}
+#wrapper{
+	background-color: white;
+	position: relative;
+	top: 10px;
+	max-width: 1100px;
+	margin: auto;
+	border: 1px solid #ccc;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#container{
+
+	clear: both;	
+	
+}
+
+div#footer{	
+	clear: both;
+	display: block;
+    background-color: #4267B2;
+	color: white;
+	padding: 5px 10px; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+input[type=button]{
+	margin-bottom: 10px;
+}
+#slider{
+	clear: both;
+	position: relative;
+	max-height: 50%;
+    max-width: 100%;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.carousel{
+	max-height: 300px;
+    overflow: hidden;
+}
+.danhsach{
+	
+    
+    margin-bottom: 20px;
+    padding: 20px; 
+}
+.item{
+	display: inline-block;
+	margin: 10px;
+	background-color: yellowgreen;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#menu{
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/*	margin: 10px 0;*/
+	
+}
+.navbar {
+	background-color: #4267B2;
+    border-color: #576684;
+}
+.navbar-brand{
+	color: white !important;
+}
+btn{
+	float: right;
+}
+
+
+/* Phan main-content*/
+.khungdangnhap{
+	background-color: #739BFF; 
+	padding: 1%;
+	margin: auto;
+	max-width: 500px;
+	border: 1px solid #ccc; 
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.khungdangnhap h1{
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 2px dashed ;
+}
+.khungdangnhap p{
+	color: white;
+	font-style: italic;
+}
+
+#main-content{
+	padding: 0 1%;
+	
+}
+input[type="file"]{
+	 position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.khungchitiet{
+	/*max-width:60%;*/
+	float: left;
+}
+.avatar{
+	max-width: 38%;
+	float: right;	
+	display: inline;
+}
+.btnluuthaydoi{
+	display: block;
+	clear: both;
+	margin:  10px;
+}
+.form-control {
+    min-width: 30% !important;
+
+}
+.form-inline{
+	margin-bottom: 5px;
+	display: flex; 
+
+}
+
+/* Định dạng bảng table */
+tr {
+	width: 100%;
+	display: inline-table;
+	table-layout: fixed;
+}
+
+table{
+
+ height:200px;              // <-- Select the height of the table
+ display: -moz-groupbox;    // Firefox Bad Effect
+}
+tbody{
+  overflow-y: auto;      
+  height: 150px;            //  <-- Select the height of the body
+  width: 100%;
+  position: absolute;
+}
+
+
+/* Man hinh co 767 tro xuong */
+@media (max-width: 767px){
+	.logo{
+	max-width: 100%
+
+	}
+	.dangnhap input[type=button]{
+		display: inline-block;
+	}
+}
+
+
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+
