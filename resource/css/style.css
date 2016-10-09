@@ -772,3 +772,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
 .modal-footer {
     padding: 5px;
 }
+.invalid {
+    border-color: #E9322D!important;
+    box-shadow: 0 0 6px #F8B9B7!important;
+}
