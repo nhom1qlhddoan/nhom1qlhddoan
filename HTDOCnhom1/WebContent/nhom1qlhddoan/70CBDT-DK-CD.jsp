@@ -87,31 +87,31 @@
                 <h1>Chi Đoàn....</h1>
                 <form class="" action="" method="POST" role="form">
                     <div class="form-inline">
-                        <label class="fieldinput col-sm-2"> Mã chi đoàn: </label>
+                        <label class="fieldinput col-sm-4"> Mã chi đoàn: </label>
                         <input type="text" name="machidoan" class="form-control required name" id="" value="141103"placeholder="Input field" data-trigger="manual" data-content="Bạn cần phải nhập vào trường này,ít nhất 3 ký tự.">
                     </div>
                     <div class="form-inline">
-                        <label class="fieldinput col-sm-2">Tên chi đoàn: </label>
+                        <label class="fieldinput col-sm-4">Tên chi đoàn: </label>
                         <input type="text" name="tenchidoan" class="form-control required name" id="" value="Lớp 141103" placeholder="Input field"  data-trigger="manual" data-content="Bạn cần phải nhập vào trường này,ít nhất 3 ký tự.">
                     </div>
                     <div class="form-inline">
-                        <label class="fieldinput col-sm-2">Người quản lý: </label>
+                        <label class="fieldinput col-sm-4">Người quản lý: </label>
                         <input type="date" name="ngquanly" class="form-control required  name" id="" value="Đào Kim Hùng" placeholder="Input field"  data-trigger="manual" data-content="Bạn cần phải nhập vào trường này,ít nhất 3 ký tự.">
                     </div>
                     <div class="form-inline">
-                       <label class="fieldinput col-sm-2">Số ĐT: </label>
+                       <label class="fieldinput col-sm-4">Số ĐT: </label>
                         <input type="text" name="sdt" class="form-control required phone" id="" value="01653708276" placeholder="Input field" data-trigger="manual" data-content="Bạn cần phải nhập vào trường này,ít nhất 8 kí tự số." >
                     </div>
                     <div class="form-inline">
-                        <label class="fieldinput col-sm-2">Email: </label>
+                        <label class="fieldinput col-sm-4">Email: </label>
                         <input type="text" name="email" class="form-control required email" id="" value="14110084@gmail.com" placeholder="Input field" data-trigger="manual" data-content="Bạn cần phải nhập vào trường này là một địa chỉ Email">
                     </div>
                     <div class="form-inline">
-                        <label class="fieldinput col-sm-2">Đơn vị công tác: </label>
+                        <label class="fieldinput col-sm-4">Đơn vị công tác: </label>
                         <input type="text" name="donvicongtax" class="form-control required name" id="" value="A2-803" placeholder="Input field" data-trigger="manual" data-content="Bạn cần phải nhập vào trường này,ít nhất 6 ký tự."  >
                     </div>
                     <div class="form-inline">
-                        <label class="fieldinput col-sm-2">Niên Khóa: </label>
+                        <label class="fieldinput col-sm-4">Niên Khóa: </label>
                         <input type="text" name="nienkhoa" class="form-control required number " id="" value="2014-..." placeholder="Input field" data-trigger="manual" data-content="Bạn cần phải nhập vào trường này,ít nhất 4 ký tự là số." >
                     </div>
                     <button type="button" class="btn btn-success" onclick="window.location='62CBDT-ThanhCong.jsp';">Lưu thay đổi</button>

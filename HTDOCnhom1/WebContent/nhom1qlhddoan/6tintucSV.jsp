@@ -58,27 +58,184 @@
              <div id="main-content">
                 <!-- Phan than o day -->
                 <h1>Danh sách tin tức mới</h1>
-                <div class="danhsach">
-                    <div class="item" onclick="window.location='19tintucSV_xem.jsp'">
-                        <img src="img/no-image.jpg" width="200px" alt="">
-                        <h3>Thông báo ...</h3>
+                <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="col-home">
+                                <div class="col-item">
+                                    <div class="images-container">
+                                        <a class="product-image" href="3TC_xem_tintuc.html">
+                                            <img src="img/no-image.jpg" class="img-responsive">
+                                        </a>
+                                    </div>
+                                    <span class="flag">Mới</span>
+                                    <div class="info">
+                                        <div class="info-inner">
+                                            <div class="item-content">
+                                                <div class="item-title"> <a href="/ha-long-dao-cat-ba"> Tin tức AAA... </a> </div>
+                                                <div class="item-type"><a href="/ha-long-dao-cat-ba">Nội dung</a></div>
+                                                <div class="price-box">
+                                                    <p class="special-price"> <span class="price"><a href="/ha-long-dao-cat-ba">Người đăng </a></span></p>
+                                                </div>
+                                                <div class="item-vendor"><a href="/ha-long-dao-cat-ba">Ngày đăng</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-home">
+                                <div class="col-item">
+                                    <div class="images-container">
+                                        <a class="product-image" href="3TC_xem_tintuc.html">
+                                            <img src="img/no-image.jpg" class="img-responsive">
+                                        </a>
+                                    </div>
+                                    <span class="flag">Mới</span>
+                                    <div class="info">
+                                        <div class="info-inner">
+                                            <div class="item-content">
+                                                <div class="item-title"> <a href="/ha-long-dao-cat-ba"> Tin tức AAA... </a> </div>
+                                                <div class="item-type"><a href="/ha-long-dao-cat-ba">Nội dung</a></div>
+                                                <div class="price-box">
+                                                    <p class="special-price"> <span class="price"><a href="/ha-long-dao-cat-ba">Người đăng </a></span></p>
+                                                </div>
+                                                <div class="item-vendor"><a href="/ha-long-dao-cat-ba">Ngày đăng</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-home">
+                                <div class="col-item">
+                                    <div class="images-container">
+                                        <a class="product-image" href="3TC_xem_tintuc.html">
+                                            <img src="img/no-image.jpg" class="img-responsive">
+                                        </a>
+                                    </div>
+                                    <span class="flag">Mới</span>
+                                    <div class="info">
+                                        <div class="info-inner">
+                                            <div class="item-content">
+                                                <div class="item-title"> <a href="/ha-long-dao-cat-ba"> Tin tức AAA... </a> </div>
+                                                <div class="item-type"><a href="/ha-long-dao-cat-ba">Nội dung</a></div>
+                                                <div class="price-box">
+                                                    <p class="special-price"> <span class="price"><a href="/ha-long-dao-cat-ba">Người đăng </a></span></p>
+                                                </div>
+                                                <div class="item-vendor"><a href="/ha-long-dao-cat-ba">Ngày đăng</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-home">
+                                <div class="col-item">
+                                    <div class="images-container">
+                                        <a class="product-image" href="3TC_xem_tintuc.html">
+                                            <img src="img/no-image.jpg" class="img-responsive">
+                                        </a>
+                                    </div>
+                                    <span class="flag">Mới</span>
+                                    <div class="info">
+                                        <div class="info-inner">
+                                            <div class="item-content">
+                                                <div class="item-title"> <a href="/ha-long-dao-cat-ba"> Tin tức AAA... </a> </div>
+                                                <div class="item-type"><a href="/ha-long-dao-cat-ba">Nội dung</a></div>
+                                                <div class="price-box">
+                                                    <p class="special-price"> <span class="price"><a href="/ha-long-dao-cat-ba">Người đăng </a></span></p>
+                                                </div>
+                                                <div class="item-vendor"><a href="/ha-long-dao-cat-ba">Ngày đăng</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-home">
+                                <div class="col-item">
+                                    <div class="images-container">
+                                        <a class="product-image" href="3TC_xem_tintuc.html">
+                                            <img src="img/no-image.jpg" class="img-responsive">
+                                        </a>
+                                    </div>
+                                    <span class="flag">Mới</span>
+                                    <div class="info">
+                                        <div class="info-inner">
+                                            <div class="item-content">
+                                                <div class="item-title"> <a href="/ha-long-dao-cat-ba"> Tin tức AAA... </a> </div>
+                                                <div class="item-type"><a href="/ha-long-dao-cat-ba">Nội dung</a></div>
+                                                <div class="price-box">
+                                                    <p class="special-price"> <span class="price"><a href="/ha-long-dao-cat-ba">Người đăng </a></span></p>
+                                                </div>
+                                                <div class="item-vendor"><a href="/ha-long-dao-cat-ba">Ngày đăng</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-home">
+                                <div class="col-item">
+                                    <div class="images-container">
+                                        <a class="product-image" href="3TC_xem_tintuc.html">
+                                            <img src="img/no-image.jpg" class="img-responsive">
+                                        </a>
+                                    </div>
+                                    <span class="flag">Mới</span>
+                                    <div class="info">
+                                        <div class="info-inner">
+                                            <div class="item-content">
+                                                <div class="item-title"> <a href="/ha-long-dao-cat-ba"> Tin tức AAA... </a> </div>
+                                                <div class="item-type"><a href="/ha-long-dao-cat-ba">Nội dung</a></div>
+                                                <div class="price-box">
+                                                    <p class="special-price"> <span class="price"><a href="/ha-long-dao-cat-ba">Người đăng </a></span></p>
+                                                </div>
+                                                <div class="item-vendor"><a href="/ha-long-dao-cat-ba">Ngày đăng</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-home">
+                                <div class="col-item">
+                                    <div class="images-container">
+                                        <a class="product-image" href="3TC_xem_tintuc.html">
+                                            <img src="img/no-image.jpg" class="img-responsive">
+                                        </a>
+                                    </div>
+                                    <span class="flag">Mới</span>
+                                    <div class="info">
+                                        <div class="info-inner">
+                                            <div class="item-content">
+                                                <div class="item-title"> <a href="/ha-long-dao-cat-ba"> Tin tức AAA... </a> </div>
+                                                <div class="item-type"><a href="/ha-long-dao-cat-ba">Nội dung</a></div>
+                                                <div class="price-box">
+                                                    <p class="special-price"> <span class="price"><a href="/ha-long-dao-cat-ba">Người đăng </a></span></p>
+                                                </div>
+                                                <div class="item-vendor"><a href="/ha-long-dao-cat-ba">Ngày đăng</a></div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="item" onclick="window.location='19tintucSV_xem.jsp'">
-                        <img src="img/no-image.jpg" width="200px" alt="">
-                        <h3>Thông báo ...</h3>
-                    </div>
-                    <div class="item" onclick="window.location='19tintucSV_xem.jsp'">
-                        <img src="img/no-image.jpg" width="200px" alt="">
-                        <h3>Thông báo ...</h3>
-                    </div>
-                    <div class="item" onclick="window.location='19tintucSV_xem.jsp'">
-                        <img src="img/no-image.jpg" width="200px" alt="">
-                        <h3>Thông báo ...</h3>
-                    </div>
-                    <h2 class="btn btn-success">Tiếp</h2>
                 </div>
-                <!-- ket thuc danh sach -->
-            </div>
         </div>
         <!-- ket thuc container -->
           <jsp:include page="footer.jsp"/> 
