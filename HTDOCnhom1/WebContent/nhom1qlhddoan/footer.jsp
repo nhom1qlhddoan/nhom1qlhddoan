@@ -14,6 +14,4 @@
         <div id="back-top" style="display: block;">
             <a href="#top"><span class="glyphicon glyphicon-chevron-up"></span></a>
         </div>
-        <div id="back-top" style="display: block;">
-            <a href="#top"><span class="glyphicon glyphicon-chevron-up"></span></a>
-        </div>
+       

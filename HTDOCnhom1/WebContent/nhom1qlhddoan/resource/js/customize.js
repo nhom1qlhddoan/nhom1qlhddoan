@@ -1,38 +1,14 @@
+//them ten file vao input file
 $(function() {
-
-    // We can attach the `fileselect` event to all file inputs on the page
-    $(document).on('change', ':file', function() {
-        var input = $(this),
-            numFiles = input.get(0).files ? input.get(0).files.length : 1,
-            label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
-        input.trigger('fileselect', [numFiles, label]);
-    });
-
-    // We can watch for our custom `fileselect` event like this
-    $(document).ready(function() {
-        $(':file').on('fileselect', function(event, numFiles, label) {
-
-            var input = $(this).parents('.input-group').find(':text'),
-                log = numFiles > 1 ? numFiles + ' files selected' : label;
-
-            if (input.length) {
-                input.val(log);
-            } else {
-                if (log) alert(log);
-            }
-
-        });
-    });
-
+	$('input[type=file]').on('change fileselect',function(e){
+		  
+		  var  label = $(this).val().replace(/\\/g, '/').replace(/.*\//, '');
+	        var input = $(this).parents('.input-group').find(':text');
+	        input.val(label);
+		});
 });
 
-$(document).on('ready', function() {
-    $("#input-4").fileinput({ showCaption: false });
-
-
-});
 /* datetime picker */
-
 $(function() {
 	
 	
@@ -83,10 +59,11 @@ $(document).ready(function() {
                 regex: /^.{3,}$/
             },
             password1: {
-                regex: /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/
+              //  regex: /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/
+            	regex: /^[a-zA-Z0-9]\d{7,30}$/
             },
             password1_repeat: {
-                regex: /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/
+                regex:  /^[a-zA-Z0-9]\d{7,30}$/
             },
             email: {
                 regex: /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/
@@ -202,13 +179,19 @@ $(document).ready(function() {
     $('form').goValidate();
 });
 
-
-/* Light box with Modal bootstrap */
-$(function() {
-    $('f').imageLightbox();
-
+//dua src anh vao the a co class=linkanh va the a co data-imagelightbox="f" de lightbox
+$(document).on('ready change',function(){	
+	//$(".linkanh").attr('data-imagelightbox', 'f');
+	var link= $('.linkanh img').attr('src');
+	$(".linkanh").attr('href',link);	
+	$('f').imageLightbox();
 
 });
+
+/* Light box with Modal bootstrap */
+
+ 
+
 /* Modal box Ajax  */
 $(document).ready(function() {
     $(document).ajaxComplete(function() {
@@ -251,10 +234,8 @@ $(document).ready(function() {
 
     });
 
-
-
 });
-/* tab */
+/* tab thongtinsv*/
 $(document).ready(function() {
     $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
         e.preventDefault();

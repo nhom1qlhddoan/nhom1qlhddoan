@@ -132,10 +132,9 @@
                         </form>
                     </div>
                     <!-- ket thuc khungchitiet -->
-                    <div class="avatar">
-                        <img class="img-responsive" src="img/no-image.jpg" alt="Chania">
-                    </div>
-                    <!-- ket thuc avatar -->
+                    <div class="avatar">							
+							<a class="linkanh" data-imagelightbox="f"><img class="anhavatar img-responsive" src="img/no-image.jpg" alt="Chania"></a>
+						</div><!-- ket thuc avatar -->	
                 </div>
                 <button type="button" class="btnluuthaydoi btn btn-success" onclick="window.location='62CBDT-ThanhCong.jsp';">Duyệt</button>
                 <button type="button" class="btnluuthaydoi btn btn-danger" onclick="window.location='62CBDT-ThanhCong.jsp';">Không duyệt</button>

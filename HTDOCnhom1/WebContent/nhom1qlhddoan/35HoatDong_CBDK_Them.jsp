@@ -159,18 +159,16 @@
 						</form>
 						</div> <!-- ket thuc khungchitiet -->
 	
-						<div class="avatar">
-							
-							<img class="img-responsive" src="img/no-image.jpg" alt="Chania">
+						<div class="avatar">							
+							<a class="linkanh" data-imagelightbox="f"><img class="anhavatar img-responsive" src="img/no-image.jpg" alt="Chania"></a>
 							<div class="input-group">
 			                <label class="input-group-btn">
 			                    <span class="btn btn-primary">
-			                        Browse… <input type="file" style="display: none;" multiple="">
+			                        Duyệt... <input type="file" style="display: none;"  onchange="$('.anhavatar').attr('src', window.URL.createObjectURL(this.files[0]))" accept="image/*">
 			                    </span>
 			                </label>
 			                <input type="text" class="form-control" readonly="">											
-	           			 </div>				
-								
+	           				 </div>									
 						</div><!-- ket thuc avatar -->				
 					</div>
 					<button type="submit" class="btnluuthaydoi btn btn-success pull-left" onclick="window.location='36HoatDong_CBDK_ThemThanhCong.jsp'">Thêm hoạt động</button>
