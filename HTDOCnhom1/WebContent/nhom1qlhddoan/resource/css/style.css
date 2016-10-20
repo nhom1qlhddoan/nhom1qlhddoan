@@ -248,6 +248,8 @@ tr {
 table {
     height: 200px;
     display: -moz-groupbox;
+    table-layout: fixed;
+    word-wrap: break-word;
 }
 thead {
     display: inline;

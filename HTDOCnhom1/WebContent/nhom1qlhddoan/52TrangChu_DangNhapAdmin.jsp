@@ -4,17 +4,17 @@
 <html>
 <head>
 <title>Admin đăng nhập</title>
-<jsp:include page="thehead.jsp"/> 
+<jsp:include page="/nhom1qlhddoan/thehead.jsp"/> 
 </head>
 <body>
 	 <div id="wrapper">
         
-     <jsp:include page="theheadbody.jsp"/> 
+     <jsp:include page="/nhom1qlhddoan/theheadbody.jsp"/> 
         <!-- ket thuc head -->
         <div id="container">
-         <jsp:include page="slider.jsp"/> 
+         <jsp:include page="/nhom1qlhddoan/slider.jsp"/> 
            <!-- ket thuc slider -->
-             <jsp:include page="breakingnew.jsp"/> 
+             <jsp:include page="/nhom1qlhddoan/breakingnew.jsp"/> 
                <!-- ket thuc breakingnew -->
             <div id="menu">
                 <nav class="navbar navbar-default" role="navigation">
@@ -67,7 +67,7 @@
 					                                    </div>
 					                                    <div class="col-lg-8">
 					                                        <p class="text-left"><strong>Tên</strong></p>
-					                                        <p class="text-left small">tenemailcuaban@email.com</p>
+					                                        <p class="text-left small"><%= request.getAttribute("user") %></p>
 					                                        <p class="text-left">
 					                                            <a href="#" class="btn btn-primary btn-block btn-sm">Xem thông tin</a>
 					                                        </p>
@@ -464,7 +464,7 @@
                 <!-- ket thuc danh sach -->
             </div>
         <!-- ket thuc container -->
-         <jsp:include page="footer.jsp"/> 
+         <jsp:include page="/nhom1qlhddoan/footer.jsp"/> 
     </div>
 </body>
 </html>

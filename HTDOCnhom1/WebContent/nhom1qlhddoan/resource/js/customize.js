@@ -60,10 +60,10 @@ $(document).ready(function() {
             },
             password1: {
               //  regex: /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/
-            	regex: /^[a-zA-Z0-9]\d{7,30}$/
+            	regex: /^[a-zA-Z0-9]{7,30}$/
             },
             password1_repeat: {
-                regex:  /^[a-zA-Z0-9]\d{7,30}$/
+                regex:  /^[a-zA-Z0-9]{7,30}$/
             },
             email: {
                 regex: /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/

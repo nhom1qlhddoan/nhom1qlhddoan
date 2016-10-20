@@ -23,7 +23,7 @@
 <div class="khungdangnhap">
     <h1>Đăng nhập</h1>
     
-    <form action="login" method="POST" role="form">
+    <form action="${pageContext.request.contextPath}/login" method="POST" role="form">
         <div class="form-inline">   	
        		<label class="fieldinput col-sm-3">Tài khoản:</label>
        		<div  class="form-inline col-sm-9">

@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" %>
+  <%@page import="controller.*,model.*" %>
+  <% DangNhap dn=new DangNhap(); %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -111,6 +114,7 @@
                 <table class="table table-striped">
                     <thead>
                         <tr>
+                       		 <th>Mã SV</th>
                             <th>Tài khoản</th>
                             <th>Mật khẩu</th>
                             <th>Phân quyền</th>
@@ -120,11 +124,16 @@
                         </tr>
                     </thead>
                     <tbody>
+                    	<%
+                    		for(TaiKhoan c: dn.getListTaiKhoan() ){
+                    			                    			
+                    	%>
                         <tr>
-                            <td>14110100</td>
-                            <td>*****</td>
-                            <td>Đoàn viên</td>
-                            <td>5 phut truoc</td>
+                            <td><%= c.getMssv() %></td>
+                            <td><%= c.getTentaikhoan() %></td>
+                            <td><%= c.getMatkhau() %></td>
+                            <td><%= c.getQuyen() %></td>
+                            <td><%= c.getTgcuoi() %></td>
                             <td>
                                 <button type="button" class="btn btn-primary" onclick="window.location='54QLTaiKhoan_ChiTiet.jsp';">Xem chi tiết</button>
                             </td>
@@ -132,34 +141,10 @@
                                 <button type="button" class="btn btn-primary">Xóa</button>
                             </td>
                         </tr>
-                        <tr>
-                            <td>14110100</td>
-                            <td>*****</td>
-                            <td>Đoàn viên</td>
-                            <td>45 phut truoc</td>
-                            <td>
-                                <button type="button" class="btn btn-primary" onclick="window.location='54QLTaiKhoan_ChiTiet.jsp';">Xem chi tiết</button>
-                            </td>
-                            <td>
-                                <button type="button" class="btn btn-primary">Xóa</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>14110100</td>
-                            <td>*****</td>
-                            <td>Đoàn viên</td>
-                            <td>1 tieng truoc</td>
-                            <td>
-                                <button type="button" class="btn btn-primary" onclick="window.location='54QLTaiKhoan_ChiTiet.jsp';">Xem chi tiết</button>
-                            </td>
-                            <td>
-                                <button type="button" class="btn btn-primary">Xóa</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>....</td>
-                        </tr>
-                    </tbody>
+                        <%
+                    		}
+                        %>
+                     </tbody>
                 </table>
                 <!-- Finished table -->
                 <button type="button" class="btnluuthaydoi btn btn-success" align="right" onclick="window.location='58QLTaiKhoan_Them.jsp';">Thêm tài khoản</button>
