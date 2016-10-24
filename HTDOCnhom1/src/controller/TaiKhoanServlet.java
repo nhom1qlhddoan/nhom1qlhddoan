@@ -1,13 +1,11 @@
 package controller;
 
+
 import java.io.IOException;
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
-import connect.MD5;
-import controller.*;
-import model.TaiKhoan;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 public class TaiKhoanServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -19,25 +17,29 @@ public class TaiKhoanServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		 String name = request.getParameter("username");
+			String name = request.getParameter("username");
 	        String pass = request.getParameter("password");
 	        response.setContentType("text/html; charset=UTF-8");
 	        response.setCharacterEncoding("UTF-8");
 	        if(dn.login(name, pass))
 	        {
-	        	System.out.println("Dang nhap thanh cong");
-	        	request.setAttribute("user", name);
+	        	
+	        	//System.out.println("Dang nhap thanh cong");
+	        //	request.setAttribute("user", name);
 	        //	response.sendRedirect("nhom1qlhddoan/52TrangChu_DangNhapAdmin.jsp");
-	        	RequestDispatcher rs = request.getRequestDispatcher("/nhom1qlhddoan/52TrangChu_DangNhapAdmin.jsp");
-		           rs.include(request, response);
+	        	response.getWriter().write(request.getContextPath()+"/home");
+	        	/*RequestDispatcher rs = request.getRequestDispatcher("/home");
+		           rs.include(request, response);*/
+	        	
 
 	        }
 	        else
 	        {
-	           System.out.println("Username or Password SAI");
+	         //  System.out.println("Username or Password SAI");
 	           // request.setAttribute("error", "Dang nhap that bai!");
-	           RequestDispatcher rs = request.getRequestDispatcher("/nhom1qlhddoan/0index.jsp");
-	           rs.include(request, response);
+	       /*    RequestDispatcher rs = request.getRequestDispatcher("/nhom1qlhddoan/0index.jsp");
+	           rs.include(request, response);*/
+	        	response.getWriter().write("False");
 	        }
 		
 		
