@@ -1,47 +1,58 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
-<script type="text/javascript">
-      $(document).ready(function () {
-           var x_timer;
-           $("#username").keyup(function (e) {
-                clearTimeout(x_timer);
-                var user_name = $(this).val();
-                x_timer = setTimeout(function () {
-                    check_username_ajax(user_name);
-                }, 1000);
-                });
- 
-           function check_username_ajax(username) {
-                $("#user-result").html('<img src="img/ajax-loader.gif" />');
-                $.post('CheckEmailServlet', {'username': username}, function (data) {
-                    $("#user-result").html(data);
-                 });
+<script>
+$(document).ready(function(){
+	var frm=$("#frm");
+	
+  frm.submit(function()
+   {   
+      var user=$('#username').val();
+      var pwd=$('#password').val();
+      $.ajax({
+           type: frm.attr('method'),
+           url: frm.attr('action'), //"login",
+           data: frm.serialize(), //{username:user,password:pwd},
+           success: function (data) {      	  
+        	  
+        	  
+               if(data!="False"){
+              //  $(location).attr('href','main.jsp');
+              $('#in').attr('color','green');
+              $('#in').html("Đăng nhập thành công! Đang chuyển trang... ");
+              setTimeout(function() {           	  
+				  window.location.href = data;
+				}, 2000);          	   
+              }else{
+            	  $('#in').html("Tài khoản hoặc mật khẩu sai. Xin kiểm tra lại!");
+              } 
            }
+         });           
+      	return false;
        });
-</script>
+  	
+     });
+   </script> 
 <div class="khungdangnhap">
     <h1>Đăng nhập</h1>
     
-    <form action="${pageContext.request.contextPath}/login" method="POST" role="form">
-        <div class="form-inline">   	
-       		<label class="fieldinput col-sm-3">Tài khoản:</label>
+    <form id="frm" action="${pageContext.request.contextPath}/login" method="POST" role="form">
+        <div class="form-horizontal">   	
+       		<label class="control-label col-sm-3">Tài khoản:</label>
        		<div  class="form-inline col-sm-9">
        	  		<span class="form-control input-group-addon " id="basic-addon1">
 					<span class="glyphicon glyphicon-user" aria-hidden="true"></span>        	  		
        	  		</span>
 				<input value="14110100@student.hcmute.edu.vn" id="username" name="username" size="40" type="text" class="form-control email required" id="" placeholder="14110100@student.hcmute.edu.vn" data-placement="top" data-trigger="manual" data-content="Bạn cần phải nhập vào trường này email sinh viên của bạn.">
-       		<span id="user-result"></span>
-       		</div>
        		
+       		</div>	
         </div>
-        <div class="form-inline">
-       		<label class="fieldinput col-sm-3">Mật khẩu:</label>
+        <div class="form-horizontal">
+       		<label class="control-label col-sm-3">Mật khẩu:</label>
        		<div  class="form-inline col-sm-9">
        	  		<span class="form-control input-group-addon" id="basic-addon1">
 					<span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>        	  		
        	  		</span>
-		  		<input name="password" size="40" type="password" class="form-control password1 required" id="" placeholder="12031996" data-placement="bottom" data-trigger="manual" data-content="Bạn cần phải nhập vào ít nhất 8 ký tự.">
+		  		<input name="password" size="40" type="password" class="form-control password1 required" id="password" placeholder="12031996" data-placement="bottom" data-trigger="manual" data-content="Bạn cần phải nhập vào ít nhất 8 ký tự.">
 			
 			</div>
         </div>
@@ -67,8 +78,10 @@
     </div>
     <p><% request.getParameter("error");%></p>
     <center>
-        <button type="submit" class="btn btn-success">Đăng nhập</button>
+        <input id="btnlogin" type="submit" class="btn btn-success" value="Đăng nhập"/>
+        <p id="in" style="background-color:white ; color:red;" />
     </center>
+    
     </form>  
     
 </div>

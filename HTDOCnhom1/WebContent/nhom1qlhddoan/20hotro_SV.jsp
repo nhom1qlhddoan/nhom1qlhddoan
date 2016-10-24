@@ -65,6 +65,7 @@
 			<!-- ket thuc menu -->
 			<div id="main-content">
 				<!-- Phan than o day -->
+				<div class="table-responsive">
 				<table class="table table-striped">
 					<thead>
 						<tr>
@@ -96,6 +97,7 @@
 						</tr>
 					</tbody>
 				</table>
+				</div>
 				<form class="" action="" method="POST" role="form">
 					<div class="form-inline">
 						<label class="fieldinput col-sm-2">Loại: </label> <select
@@ -118,11 +120,12 @@
 						<textarea type="text" cols="50" rows="6" class="form-control"
 							id="" placeholder="Noi dung ghi o day"></textarea>
 					</div>
-				</form>
-				<div>
+					<div>
 					<button type="submit" class="btnluuthaydoi btn btn-success">Gửi
 					</button>
 				</div>
+				</form>
+				
 			</div>
 		</div>
 		<!-- ket thuc container -->

@@ -178,7 +178,8 @@
 						</div>	                
 					</form>
 	                <h1>Danh sách các đoàn viên</h1>
-	                <table class="table table-striped table-responesive">
+	                <div class="table-responsive">
+	                <table class="table table-striped">
 	                    <thead>
 	                        <tr>
 	                            <th>Mã SV</th>
@@ -227,6 +228,7 @@
 	                        </tr>
 	                    </tbody>
 	                </table>
+	                </div>
 	            </div>
 	            <!-- ket thuc container -->
 	              <jsp:include page="footer.jsp"/> 

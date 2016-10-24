@@ -53,7 +53,7 @@
 			<!-- ket thuc menu -->
 			<div id="main-content">
 				<!-- Phan than o day -->
-				<div class="row">
+				<div class="row" style="margin-right: -11px; margin-left: -11px;">
 					<div
 						class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bhoechie-tab-container">
 						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bhoechie-tab-menu">
@@ -71,7 +71,7 @@
 						<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 bhoechie-tab">
 							<!-- flight section -->
 							<div class="bhoechie-tab-content active">
-								<div class="khungchitiet">
+								<div class="khungchitiet" style="max-width:60%;">
 									<h1 class="text-center">Chi tiết đoàn viên</h1>
 									<form class="" action="" method="POST" role="form">
 										<div class="form-inline">
@@ -166,7 +166,7 @@
 						</div><!-- ket thuc avatar -->	
 							</div>
 							<!-- train section -->
-							<div class="bhoechie-tab-content">
+							<div class="bhoechie-tab-content" style="overflow: hidden">
 								<form class="" action="" method="POST" role="form">
 									<h1>Xem Điểm</h1>
 									<div class="form-inline">
@@ -189,6 +189,7 @@
 							<!-- hotel search -->
 							<div class="bhoechie-tab-content">
 								<h1>Tin nhắn</h1>
+								<div class="table-responsive">
 								<table class="table table-striped">
 									<thead>
 										<tr>
@@ -248,13 +249,16 @@
 										</tr>
 									</tbody>
 								</table>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 				<!-- <button type="button" class="btnluuthaydoi btn btn-primary" onclick="window.location='17thongtindoanvien_Diem.jsp';">Điểm RL/Điểm CTXH</button>
 <button type="button" class="btnluuthaydoi btn btn-primary" onclick="window.location='13hoatdongSV_tinnhan.jsp';">Xem tin nhắn</button>
- -->
+ -->			
+ 				<br>
+ 				<div class="table-responsive" style="max-height: 300px">
 				<table class="table table-striped">
 					<h1>Các hoạt động đã đăng kí</h1>
 					<thead>
@@ -306,6 +310,7 @@
 						</tr>
 					</tbody>
 				</table>
+				</div>
 			</div>
 		</div>
 		<!-- ket thuc container -->

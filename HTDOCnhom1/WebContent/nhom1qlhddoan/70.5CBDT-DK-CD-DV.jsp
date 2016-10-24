@@ -97,7 +97,13 @@
                             </div>
                             <div class="form-inline">
                                 <label class="fieldinput col-sm-4">Ngày sinh </label>
-                                <input type="date" name="Từ ngày=" class="form-control required " value="" data-placement="right" data-trigger="manual" data-content="Bạn cần phải nhập ngày sinh." >
+                                <!-- <input type="date" name="Từ ngày=" class="form-control required " value="" data-placement="right" data-trigger="manual" data-content="Bạn cần phải nhập ngày sinh." > -->
+                                <div class='input-group' id='datetimepicker3'>
+									    <input type="text" class="form-control required" />
+									    <span class="input-group-addon">
+									      <span class="glyphicon glyphicon-calendar"></span>
+									    </span>
+									  </div>
                             </div>
                             <div class="form-group">
                                 <label class="fieldinput  col-sm-4 required ">Giới tính </label>
@@ -133,7 +139,14 @@
                             </div>
                             <div class="form-inline">
                                 <label class="fieldinput  col-sm-4">Ngày vào đoàn: </label>
-                                <input type="date" name="ngayvaodoan=" class="form-control" value="" required="required">
+                                <!-- <input type="date" name="ngayvaodoan=" class="form-control" value="" required="required"> -->
+                                
+                                <div class='input-group' id='datetimepicker1'>
+									    <input type="text" class="form-control required" />
+									    <span class="input-group-addon">
+									      <span class="glyphicon glyphicon-calendar"></span>
+									    </span>
+									  </div>
                             </div>
                             <div class="form-inline">
                                 <label class="fieldinput col-sm-4">Email: </label>

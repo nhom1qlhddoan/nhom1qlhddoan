@@ -271,9 +271,10 @@
                             </div>
                         </div>
                     </div>
-                    <table class="table table-striped">
-                        <thead>
-                            <tr>
+                    <div class="table-responsive">
+	                <table class="table table-striped">
+	                    <thead>
+	                        <tr>
                                 <th>Tên hoạt động</th>
                                 <th>Từ ngày </th>
                                 <th>Đến ngày</th>
@@ -313,8 +314,8 @@
                                     <button type="button" class="btn btn-primary" onclick="window.location='11hoatdongSV_xem.jsp';" align="right">Xem</button>
                                 </td>
                             </tr>
-                        </tbody>
-                    </table>
+	                    </tbody>
+	                </table>
                 </div>
                 <!-- ket thuc container -->
                 <jsp:include page="footer.jsp"/>

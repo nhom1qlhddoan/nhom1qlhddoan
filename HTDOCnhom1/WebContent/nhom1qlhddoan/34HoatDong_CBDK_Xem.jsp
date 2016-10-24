@@ -126,6 +126,7 @@
 	                </div>
 	                <!-- /input-group -->
 	                <!-- Create a Table -->
+	                <div class="table-responsive">
 	                <table class="table table-striped">
 	                    <thead>
 	                        <tr>
@@ -150,6 +151,7 @@
 	                            </td>
 	                            <td>
 	                                <button type="button" class="btn btn-primary" align="right" onclick="window.location='38QLDoanVien_CBDK_ChiTiet.jsp'" "> Xem chi tiết</button></td>
+	                                </tr>
 	                    <tr>
 	                        <td>14110137</td>
 	                        <td>Nhật</td>
@@ -182,6 +184,7 @@
 	                    </tr>
 	                </tbody>
 	            </table>
+	            </div>
 	            <!-- Finished table -->
 	
 				</div>

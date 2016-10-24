@@ -66,7 +66,8 @@
 	                </div>
 	                <!-- /input-group -->
 	                <!-- Create a Table -->
-	                <table class="table table-striped table-responsive">
+	                <div class="table-responsive">
+	                <table class="table table-striped">
 	                    <thead>
 	                        <tr>
 	                            <th>Mã SV</th>
@@ -112,11 +113,13 @@
 	                            <td>
 	                                <button type="button" class="btn btn-primary" align="right">Xóa</button>
 	                            </td>
+	                            </tr>
 	                            <tr>
 	                                <td>....</td>
 	                            </tr>
 	                    </tbody>
 	                </table>
+					</div>
 	                <!-- Finished table -->
 	                <button type="submit" class="btnluuthaydoi btn btn-success" onclick="window.location='40QLDoanVien_CBDK_Them.jsp'">Thêm đoàn viên</button>
 	            </div>

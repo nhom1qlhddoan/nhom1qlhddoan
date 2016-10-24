@@ -35,7 +35,7 @@
 	                                <li class="#"><a href="32HoatDong_CBDK.jsp">Hoạt Động</a></li>
 	                            </ul>
 	                            <ul class="nav navbar-nav">
-	                                <li class="#" href="42TinTuc_CBDK.jsp">Đăng tin</a></li>
+	                                <li class="#"><a href="42TinTuc_CBDK.jsp">Đăng tin</a></li>
 	                            </ul>
 	                            <ul class="nav navbar-nav navbar-right">
 	                                <li class="#"><a href="25thongtinCBDK.jsp">TT Cán bộ</a></li>
@@ -65,6 +65,7 @@
 	                </div>
 	                <!-- /input-group -->
 	                <!-- Create a Table -->
+	                <div class="table-responsive">
 	                <table class="table table-striped">
 	                    <thead>
 	                        <tr>
@@ -129,6 +130,7 @@
 	                        </tr>
 	                    </tbody>
 	                </table>
+	                </div>
 	                <!-- Finished table -->
 	                <button type="button" class="btn btn-success" align="right" onclick="window.location='35HoatDong_CBDK_Them.jsp'">Thêm hoạt động</button>
 	                <h2 class="text-left">Danh sách các hoạt động được duyệt</h2>
@@ -140,6 +142,7 @@
 	                </div>
 	                <!-- /input-group -->
 	                <!-- Create a Table -->
+	                <div class="table-responsive">
 	                <table class="table table-striped">
 	                    <thead>
 	                        <tr>
@@ -195,6 +198,7 @@
 	                        </tr>
 	                    </tbody>
 	                </table>
+	                </div>
 	                <!-- Finished table -->
 	            </div>
 	            <!-- ket thuc container -->

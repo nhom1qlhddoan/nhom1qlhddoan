@@ -105,6 +105,7 @@
 					</span>
 	                </div>
 	                <!-- /input-group -->
+	                <div class="table-responsive">
 	                <table class="table table-striped">
 	                    <thead>
 	                        <tr>
@@ -163,6 +164,7 @@
 	                        </tr>
 	                    </tbody>
 	                </table>
+	                </div>
 	            </div>
 	            <button type="button" class="btnluuthaydoi btn btn-success" align="right" onclick="window.location='29_30ChiDoan_CBDK_Them_Doan.jsp'">Thêm chi đoàn</button>
 	        </div>

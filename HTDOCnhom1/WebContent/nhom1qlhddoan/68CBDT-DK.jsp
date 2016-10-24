@@ -101,6 +101,7 @@
                     </ul>
                </div>
                 <!-- Create a Table -->
+                <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
                         <tr>
@@ -151,6 +152,7 @@
                         </tr>
                     </tbody>
                 </table>
+                </div>
                 <!-- Finished table -->
                 <button type="button" class="btnluuthaydoi btn btn-success" onclick="window.location='71CBDT-DK-Them.jsp';" align="right">Thêm</button>
             </div>

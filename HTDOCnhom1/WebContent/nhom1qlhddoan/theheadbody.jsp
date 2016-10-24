@@ -12,6 +12,9 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-footer">
+		                            	 <span id="loading" style="float:left;">
+		  <p><img src="resource/js/AjaxLoader.gif" /> Please Wait</p>
+				</span>
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
                             </div>
                             <div class="modal-body">
@@ -21,5 +24,6 @@
                     </div>
                 </div>
             </div>
+ 
   </div>
         

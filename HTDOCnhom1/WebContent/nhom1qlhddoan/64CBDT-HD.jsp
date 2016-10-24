@@ -102,6 +102,7 @@
                     </ul>
                </div>
                 <!-- Create a Table -->
+                <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
                         <tr>
@@ -157,6 +158,7 @@
                         </tr>
                     </tbody>
                 </table>
+                </div>
                 <button type="submit" class="btnluuthaydoi btn btn-success" onclick="window.location='67CBDT-HD-Them.jsp';">Thêm hoạt động</button>
                 <!-- Finished table -->
               <div class="panel-group" id="accordion" role="tablist" ariamultiselectable="true">  <div class="panel panel-default">    <div class="panel-heading" role="tab" id="headingOne">      <h4 class="panel-title">        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">   <h3 class="text-left">Danh sách các hoạt động đã duyệt(đã lên trang chủ) </h3> </a>      </h4>    </div>    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">      <div class="panel-body">

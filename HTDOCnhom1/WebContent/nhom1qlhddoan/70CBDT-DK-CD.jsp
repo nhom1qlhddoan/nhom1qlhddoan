@@ -133,9 +133,10 @@
                     </ul>
             </div>
                     <!-- Create a Table -->
-                    <table class="table table-striped">
-                        <thead>
-                            <tr>
+                    <div class="table-responsive">
+	                <table class="table table-striped">
+	                    <thead>
+	                        <tr>
                                 <th>Mã SV</th>
                                 <th>Tên SV</th>
                                 <th>Ngày sinh</th>
@@ -177,8 +178,8 @@
                             <tr>
                                 <td>....</td>
                             </tr>
-                        </tbody>
-                    </table>
+	                    </tbody>
+	                </table>
                     <!-- Finished table -->
             </div>
         </div>
