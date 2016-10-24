@@ -207,6 +207,7 @@ input[type="file"] {
 .khungchitiet {
     /*max-width:60%;*/
     float: left;
+  
 }
 .khungnoidung {
     padding:10px
@@ -240,7 +241,18 @@ display: -ms-flexbox;
 }
 
 /* Định dạng bảng table */
-tr {
+/* Your CSS */
+.table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow: auto;
+	max-height:200px;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #DDD;
+}
+
+/* tr {
     width: 100%;
     display: inline-table;
     table-layout: fixed;
@@ -260,7 +272,7 @@ tbody {
     width: 98%;
     position: absolute;
     
-}
+} */
 .bootstrap-datetimepicker-widget table {
     height: auto;
 }
@@ -282,8 +294,10 @@ tbody {
     }
  
 	.form-inline .form-control {
-	  display: inherit;
+	  display:inline-block !important;;
+	  width:auto;
 	}
+	
 }
 
 /* Man hinh co 767 tro xuong */
@@ -297,12 +311,27 @@ tbody {
     .carousel-caption {
         top: 20%;
     }
+    .form-control{
+	display: inline;
+	}
+	/* 
+	.form-control {
+	  display:inline-block !important;
+	  width:auto;
+	} */
+	.form-group{display:inline-table;}
+	
+	.input-group{
+	max-width:62%;
+	}
 }
 @media (max-width: 480px) {
     #main-content .danhsach .item {
         max-width: 100%;
     }
+    
 }
+
 .btn-file {
     position: relative;
     overflow: hidden;
@@ -721,6 +750,7 @@ span.flag {
 
 /* back to top */
 #back-top {
+	z-index:1000;
     position: fixed;
     bottom: 10px;
     right: 10px;
