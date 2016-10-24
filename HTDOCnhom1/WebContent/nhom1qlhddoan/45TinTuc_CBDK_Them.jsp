@@ -101,7 +101,7 @@
 						<h1 class="text-center">Thêm thông báo</h1>
 						<div class="khungchitiet">
 	
-							<form class="" action="" method="POST" role="form">			
+				<form class="" action="" method="POST" role="form">			
 					<div class="form-inline">
 						<label class="fieldinput col-sm-4">Tiêu đề: </label>
 						<input type="text" name="tieude" class="form-control required name" id="" value="" placeholder="Input field" data-trigger="manual" data-content="Bạn cần phải nhập vào trường này,ít nhất 3 ký tự." minlength="3">
@@ -110,13 +110,15 @@
 						<label class="fieldinput col-sm-4">Ngày: </label>
 						<input type="date" name="ngay" class="form-control" id="" placeholder="" required="required">
 					</div>
-					<div class="form-inline">
+					<div class="form-group">
 						<label class="fieldinput col-sm-4">Trích đoạn: </label>
-						<textarea rows="6" cols="50" class="form-control required name" id="" placeholder="Trích doan o day" data-trigger="manual" data-content="Bạn cần phải nhập vào trường này,ít nhất 3 kí tự." minlength="3" required="required"></textarea>		
+						<textarea rows="6" cols="50" class="form-control required name" id="" placeholder="Trích doan o day" data-trigger="manual" data-content="Bạn cần phải nhập vào trường này,ít nhất 3 kí tự." minlength="3" required="required"></textarea>
+						<span class="help-block">Ghi vài câu đầu của rội dung.</span>
 					</div>
-					<div class="form-inline">
+					<div class="form-group">
 						<label class="fieldinput col-sm-4">Nội dung: </label>
 						<textarea rows="6" cols="50" class="form-control required name" id="" placeholder="noi dung chi tiet o day" data-trigger="manual" data-content="Bạn cần phải nhập vào trường này, ít nhất 3 kí tự." minlength="3"></textarea>
+						<span class="help-block">Ghi nội dung rõ ràng và đầy đủ.</span>
 					</div>									
 				</form>
 						</div> <!-- ket thuc khungchitiet -->

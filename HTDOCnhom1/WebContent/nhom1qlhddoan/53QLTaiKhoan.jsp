@@ -111,6 +111,7 @@
                 </div>
                 <!-- /input-group -->
                 <!-- Create a Table -->
+                <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
                         <tr>
@@ -146,6 +147,7 @@
                         %>
                      </tbody>
                 </table>
+                </div>
                 <!-- Finished table -->
                 <button type="button" class="btnluuthaydoi btn btn-success" align="right" onclick="window.location='58QLTaiKhoan_Them.jsp';">Thêm tài khoản</button>
             </div>

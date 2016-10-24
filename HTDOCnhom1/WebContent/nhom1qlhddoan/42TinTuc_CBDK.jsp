@@ -251,6 +251,7 @@
 	                    </select>
 	                </form>
 	                <!-- Create a Table -->
+	                <div class="table-responsive">
 	                <table class="table table-striped">
 	                    <thead>
 	                        <tr>
@@ -284,7 +285,7 @@
 	                                <button type="button" class="btn btn-primary" align="right">Xóa</button>
 	                            </td>
 	                        </tr>
-	                        </tr>
+	                       
 	                        <tr>
 	                            <td>HĐ 3</td>
 	                            <td>22/9/2016</td>
@@ -296,12 +297,13 @@
 	                                <button type="button" class="btn btn-primary" align="right">Xóa</button>
 	                            </td>
 	                        </tr>
-	                        </tr>
+	                     
 	                        <tr>
 	                            <td>....</td>
 	                        </tr>
 	                    </tbody>
 	                </table>
+	                </div>
 	                <button type="button" class="btnluuthaydoi btn btn-success" onclick="window.location='45TinTuc_CBDK_Them.jsp';">Thêm bài đăng</button>
 	                <!-- Finished table -->
 	            </div>

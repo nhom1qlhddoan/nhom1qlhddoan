@@ -95,6 +95,7 @@
                 </nav>
             </div>
             <!-- ket thuc menu -->
+            
             <h1 class="text-center">Gửi tin nhắn</h1>
             <form class="" action="xulyguitinnhan" method="POST" role="form">
                 <div class="form-inline">
@@ -116,7 +117,8 @@
                     <label class="fieldinput col-sm-2">Nội dung: </label>
                     <textarea type="text" name="noidung" cols="50" rows="6" class="form-control " id="" placeholder="Mội dung ở đây" required="required" > </textarea>
                 </div>
-                <button type="button" class="btnluuthaydoi btn btn-success" onclick="window.location='51HoTro_CBDK_GuiTN_ThanhCong.jsp';">Gửi tin nhắn</button>
+                <button type="submit" class="btnluuthaydoi btn btn-success" onclick="window.location='51HoTro_CBDK_GuiTN_ThanhCong.jsp';">Gửi tin nhắn</button>
+        </form>
         </div>
         <!-- ket thuc container -->
          <jsp:include page="footer.jsp"/> 

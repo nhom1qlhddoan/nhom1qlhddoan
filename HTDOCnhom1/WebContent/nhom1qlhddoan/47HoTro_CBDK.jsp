@@ -57,7 +57,8 @@
 			<div id="main-content">
 				<h2 class="text-left">Danh sách tin nhắn</h2>
             <!-- Create a Table -->
-			<table class="table table-striped table-responsive-">
+            <div class="table-responsive">
+			<table class="table table-striped">
                 <thead>
                     <tr>
                         <th>Mã SV</th>
@@ -91,7 +92,8 @@
                         <td>abc.....</td>
                         <td>Đã xem</td>
                         <td><button type="button" class="btn btn-primary"  align="right" onclick="window.location='48HoTro_CBDK_Xem.jsp';">Xem chi tiết</button></td>
-                        <td><button type="button" class="btn btn-primary"  align="right">Xóa</button></td>                    </tr>
+                        <td><button type="button" class="btn btn-primary"  align="right">Xóa</button></td>              
+                        </tr>
                     <tr>
                         <td>14110127</td>
                         <td>Hùng</td>
@@ -102,11 +104,13 @@
                         <td>Đã xem</td>
                         <td><button type="button" class="btn btn-primary"  align="right" onclick="window.location='48HoTro_CBDK_Xem.jsp';"50HoTro_CBDK_GuiTN>Xem chi tiết</button></td>
                         <td><button type="button" class="btn btn-primary"  align="right">Xóa</button></td>
+                        </tr>
                     <tr>
                         <td>....</td>
                     </tr>
                 </tbody>
             </table>
+</div>
                 <!-- Finished table -->
             <button  type="button" class="btnluuthaydoi btn btn-success" onclick="window.location='50HoTro_CBDK_GuiTN.jsp';" align="right">Thêm tin nhắn</button>
 			</div>
